@@ -14,7 +14,6 @@ async function getMessages() {
 
 async function createMessage(message) {
 	const response = await axios.post('http://localhost:3000/messages',message)
-
 	console.log('CREATE', response.data);
 	return response.data
 }
@@ -33,8 +32,8 @@ async function createMessage(message) {
 // }
 
 // async function main() {
-// 	await create();
-// 	await get();
+// 	await createMessage(data);
+// 	await getMessages();
 // 	// await update(); //no existe controlador
 // 	// await find(); //no existe controlador
 // 	// await deleteMessage(); //no existe controlador

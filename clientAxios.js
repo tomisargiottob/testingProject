@@ -74,7 +74,7 @@ async function deleteProduct(id) {
 }
 
 // async function main() {
-//		log = true
+// 	log = true
 // 	await create(data);
 // 	await get();
 // 	await update(id,dataUpdated);
