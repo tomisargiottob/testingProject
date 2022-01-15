@@ -1,0 +1,18 @@
+{
+  "name": "httpheroku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "start": "node client.js",
+    "start:axios": "node clientAxios.js && node clientAxiosMessages.js",
+    "test": "mocha index.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "mocha": "^9.1.4"
+  }
+}
